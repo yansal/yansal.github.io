@@ -3,7 +3,7 @@ layout: post
 title:  "Ruby one-liner study"
 date:   2013-06-19 00:00:00
 ---
-In that presentation, there is a funny ruby one-liner. Here is the explanation:
+In that [presentation][presentation], there is a funny ruby one-liner. Here is the explanation:
 
     yes|ruby -ne '$><<"\r\x1b[#{31+($.+=1)%7}mZOMG PREFORKING"; sleep 0.1;'
 
@@ -26,3 +26,5 @@ The `\x1b` character is the escape character. It is the same as `\033` and `\e` 
 The value computed by the expression `31+($.+=1)%7` will always be between 31 and 37.
 
 Maybe one day I’ll finish this explanation.
+
+[presentation]: http://youtu.be/2rAoasxZKGU?t=8m4s
