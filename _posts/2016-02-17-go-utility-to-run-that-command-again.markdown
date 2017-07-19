@@ -15,4 +15,4 @@ And add `again` before your boring command:
 
     again ssh -v host
 
-I will run it again until it succeeds.
+It will run again and again until it succeeds.
