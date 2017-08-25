@@ -18,7 +18,7 @@ CREATE FUNCTION
   LANGUAGE plpgsql
   AS '
   BEGIN
-    NEW.z := substr(NEW.z,1,3);
+    NEW.z := substr(NEW.z, 1, 3);
     RETURN NEW;
   END';
 CREATE TRIGGER tr BEFORE INSERT OR UPDATE
