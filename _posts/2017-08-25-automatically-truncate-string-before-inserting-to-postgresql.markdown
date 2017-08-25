@@ -4,6 +4,8 @@ title:  "Automatically truncate a string before inserting to PostgreSQL"
 date:   2017-08-25 00:00:00
 ---
 
+This trick doesn't work with a row of type `varchar(3)`, I don't know why.
+
 {% highlight sql %}
 BEGIN;
 CREATE TABLE t (
@@ -23,6 +25,7 @@ CREATE TRIGGER tr BEFORE INSERT OR UPDATE
   ON t
   FOR EACH ROW
   EXECUTE PROCEDURE f();
-INSERT INTO t(z) VALUES ('qwerty');
-SELECT z FROM t;
+INSERT INTO t(z)
+  VALUES ('qwerty')
+  RETURNING z; -- returns 'qwe'
 {% endhighlight %}
