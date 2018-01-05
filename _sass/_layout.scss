@@ -107,6 +107,14 @@
     margin-left: 0;
 }
 
+.contact-list li {
+    display: inline;
+}
+
+.contact-list  a:hover {
+    text-decoration: none;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;

@@ -1,11 +1,7 @@
-# Site settings
-title: YB
-#email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yansal.github.io/" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  yansal
+title: yansal.github.io
+url: https://yansal.github.io/
 
-# Build settings
-markdown: kramdown
+email: yannsalaun1@gmail.com
+github_username: yansal
+twitter_username: yannsal1
+soundcloud_username: yannsalaun

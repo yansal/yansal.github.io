@@ -1,10 +1,11 @@
 ---
 layout: page
-title: What is it?
+title: About
 permalink: /about/
 ---
 
-Each time I find something that I might want to remember later, there is a non-zero probability that I write it down on that blog.
+I like making noise with synthesizers and writing computer programs.
 
-Each time I write something on that blog, there is a non-zero probability that it interests someone else. (not sure)
+J'aime aussi mettre de la bière dans la pâte à crèpes.
 
+<img src="https://media.giphy.com/media/l49JBHBCz7YsAu1ry/giphy.gif">
