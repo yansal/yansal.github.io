@@ -6,7 +6,7 @@ date:   2018-05-16 00:00:00
 
 I'm working on an application with a large database schema. When running unit tests, it needs to connect to a fresh database with the right schema and zero data inside.
 
-There are a couple of solutions. I was inspired from the answers of this stack overflow question: https://stackoverflow.com/q/2829158
+There are a couple of solutions. I was inspired from the answers of this stack overflow question: <https://stackoverflow.com/q/2829158>
 
 ## Drop the database, create a new one and apply the schema
 
