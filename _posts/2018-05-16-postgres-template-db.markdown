@@ -38,13 +38,13 @@ That's the solution I prefer, because it's fast enough and simpler than the prev
 First create a template database and apply the schema.
 
 ```bash
-$ createdb my_test_tmpl && psql -c "alter database my_test_tmpl is_template true"
+$ createdb my_test_tmpl
 ```
 
 Then before running unit tests, drop the test database and create it from the template.
 
 ```bash
-$ dropdb my_test && createdb my_test -T my_test_tmpl
+$ dropdb --if-exists ulule_api_test && createdb ulule_api_test -T ulule_api_test_tmpl
 ```
 
 When the schema moves, update the template database.
