@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Postgres template database"
 date:   2018-05-16 00:00:00
 ---

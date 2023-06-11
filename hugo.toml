@@ -1,0 +1,12 @@
+baseURL = 'httsp://www.yansal.com/'
+languageCode = 'en-us'
+title = 'yansal.com'
+
+disableKinds = ['taxonomy', 'term']
+
+[permalinks]
+  posts = '/posts/:year/:month/:day/:title/'
+
+[params]
+  github = 'https://github.com/yansal/'
+  twitter = 'https://twitter.com/yannsal1'

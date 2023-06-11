@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Go utility to run that command again"
 date:   2016-02-17 00:00:00
 ---

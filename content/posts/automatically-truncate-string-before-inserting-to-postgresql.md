@@ -1,12 +1,11 @@
 ---
-layout: post
 title:  "Automatically truncate a string before inserting to PostgreSQL"
 date:   2017-08-25 00:00:00
 ---
 
 This trick doesn't work with a row of type `varchar(3)`, I don't know why.
 
-{% highlight sql %}
+```sql
 BEGIN;
 CREATE TABLE t (
   z text,
@@ -28,4 +27,4 @@ CREATE TRIGGER tr BEFORE INSERT OR UPDATE
 INSERT INTO t(z)
   VALUES ('qwerty')
   RETURNING z; -- returns 'qwe'
-{% endhighlight %}
+```
