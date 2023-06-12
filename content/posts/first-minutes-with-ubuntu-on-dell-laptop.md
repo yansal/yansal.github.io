@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "First minutes with Ubuntu on Dell laptop"
 date:   2017-07-19 00:00:00
 ---

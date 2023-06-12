@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Ruby one-liner study"
 date:   2013-06-19 00:00:00
 ---
