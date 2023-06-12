@@ -1,12 +1,10 @@
 {{ define "main" -}}
-<ul class="post-list">
-    {{ range .Pages -}}
-    <li>
-        {{ with .PublishDate -}}
-        <span class="post-meta">{{ .Format "January 2, 2006" }}</span>
-        {{- end }}
-        <h2><a class="post-link" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    </li>
+{{ range .Pages -}}
+<hgroup>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    {{ with .PublishDate -}}
+    <p>{{ .Format "January 2, 2006" }}</p>
     {{- end }}
-</ul>
+</hgroup>
+{{- end }}
 {{- end }}
