@@ -8,6 +8,7 @@ disableKinds = ['taxonomy', 'term']
   posts = '/posts/:year/:month/:day/:title/'
 
 [params]
+  email = 'yannsalaun1@gmail.com'
   github = 'https://github.com/yansal'
   linkedin = 'https://www.linkedin.com/in/yann-sala%C3%BCn-18638b58/'
   twitter = 'https://twitter.com/yannsal1'
