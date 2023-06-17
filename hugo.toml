@@ -1,6 +1,6 @@
-baseURL = 'httsp://www.yansal.com/'
+baseURL = 'httsp://www.yannsalaun.com/'
 languageCode = 'en-us'
-title = 'yansal.com'
+title = 'yannsalaun.com'
 
 disableKinds = ['taxonomy', 'term']
 
