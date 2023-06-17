@@ -19,16 +19,6 @@
                 <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                 {{- end }}
             </ul>
-        </nav>
-    </header>
-
-    <main class="container">
-        {{ block "main" . }}
-        {{- end }}
-    </main>
-
-    <footer class="container">
-        <nav>
             <ul>
                 {{ with .Site.Params.email -}}
                 <li><a href="mailto:{{.}}">
@@ -72,7 +62,12 @@
                 {{- end}}
             </ul>
         </nav>
-    </footer>
+    </header>
+
+    <main class="container">
+        {{ block "main" . }}
+        {{- end }}
+    </main>
 </body>
 
 </html>
