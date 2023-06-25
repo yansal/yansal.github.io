@@ -1,6 +1,6 @@
 ---
 title:  "GitHub user comments"
-date:   2023-06-23 00:00:00
+date:   2023-07-04 00:00:00
 ---
 There are a lot of great discussions happening on GitHub issues. But it can be hard to keep up with all these conversations, especially on big projects.
 
@@ -10,7 +10,7 @@ As far as I know, there's no such feature in the GitHub interface. However, it c
 
 [So I developped a small application to do that](https://gh.yansal.com).
 
-TODO: insert demo gif
+{{< video src="demo.mp4" height="529px">}}
 
 The application is extremely basic: sign in with GitHub to authenticate the GraphQL request, enter the name of the GitHub user for whom you want to list comments, and _voilà_, all the issue comments from this user are listed (accross all repositories on GitHub, including private repositories the authenticated user has access to).
 
