@@ -1,4 +1,9 @@
 {{ define "main" -}}
-<h1>{{ .Title }}</h1>
+
+<hgroup>
+    <h1>{{ .Title }}</h1>
+    <img style="border-radius: 50%; width: 200px;" src="/img/avatar.jpg">
+</hgroup>
+
 {{ .Content }}
 {{- end }}
