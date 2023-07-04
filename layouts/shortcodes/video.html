@@ -5,5 +5,5 @@
     src="{{ $resource.RelPermalink }}"
     {{ with .Get "height" }}height="{{.}}"{{ end }}
     {{ with .Get "width" }}width="{{.}}"{{ end }}
-    style="margin-bottom: var(--typography-spacing-vertical);"
+    {{ with .Get "style" }}style="{{.|safeCSS}}"{{ end }}
 ></video>
