@@ -10,7 +10,7 @@ As far as I know, there's no such feature in the GitHub interface. However, it c
 
 [So I developped a small application to do that](https://gh.yansal.com).
 
-{{< video src="demo.mp4" height="529px">}}
+{{< video src="demo.mp4" width="100%">}}
 
 The application is extremely basic: sign in with GitHub to authenticate the GraphQL request, enter the name of the GitHub user for whom you want to list comments, and _voilà_, all the issue comments from this user are listed (accross all repositories on GitHub, including private repositories the authenticated user has access to).
 
