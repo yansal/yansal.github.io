@@ -8,7 +8,7 @@ It would be great to be able to list comments from a few key users, for example 
 
 As far as I know, there's no such feature in the GitHub interface. However, it can be done via the GitHub GraphQL API: [the User object does have an issueComments field](https://docs.github.com/en/graphql/reference/objects#user).
 
-[So I developped a small application to do that](https://gh.yansal.com).
+So I developped a small application to do that. It's available at [gh.yansal.com](https://gh.yansal.com).
 
 {{< video
     src="demo.mp4"
